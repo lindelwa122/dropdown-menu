@@ -6,7 +6,7 @@ import './src/style.css';
  * @param {string} title - Title of the dropdown. Text displayed on the dropdown
  * @param {Array} listItems - An array of items to be displayed as options
  * @param {Function} [clickHandler] - Handles the click event for each list item
- * @return {{}} A method that appends the dropdown to the page
+ * @return A method that appends the dropdown to the page
  */
 const dropdown = (title, listItems, clickHandler) => {
   const _createElement = () => {
