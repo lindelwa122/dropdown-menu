@@ -1,0 +1,40 @@
+.lin-ddm-drop-down {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+}
+.lin-ddm-drop-down > .lin-ddm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.lin-ddm-drop-down > .lin-ddm-list-items {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  border-radius: 10px;
+  background-color: #fafafa;
+  overflow: hidden;
+  width: 100%;
+  transition: all 0.5s;
+  height: 0;
+  position: absolute;
+  z-index: 999;
+}
+.lin-ddm-drop-down > .lin-ddm-list-items.visible {
+  box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}
+.lin-ddm-drop-down > .lin-ddm-list-items > li {
+  padding: 10px;
+  cursor: pointer;
+}
+.lin-ddm-drop-down > .lin-ddm-list-items > li:hover {
+  background-color: #f0f0f0;
+}
+.lin-ddm-drop-down > .lin-ddm-list-items > :not(li:last-child) {
+  border-bottom: 1px solid #cacaca;
+}
