@@ -1,4 +1,4 @@
-import dropdown from '.';
+import dropdown from '../index';
 
 const colorList = ['red', 'green', 'blue'];
 

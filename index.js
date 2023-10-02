@@ -1,4 +1,5 @@
-import './style.css';
+import chevronDown from './node_modules/bootstrap-icons/icons/chevron-down.svg';
+import './src/style.css';
 
 /**
  * Creates a dropdown.
@@ -13,6 +14,7 @@ const dropdown = (title, listItems, clickHandler) => {
     header.className = 'lin-ddm-header';
     header.innerHTML = `
             <div class="lin-ddm-title">${title}</div>
+            <img src="${chevronDown}" alt="chevron-down">
             <i class="bi bi-chevron-down"></i>
         `;
 
