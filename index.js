@@ -1,4 +1,4 @@
-import chevronDown from './node_modules/bootstrap-icons/icons/chevron-down.svg';
+import chevronDown from 'bootstrap-icons/icons/chevron-down.svg';
 import './src/style.css';
 
 /**
