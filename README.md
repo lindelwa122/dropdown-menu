@@ -6,7 +6,7 @@
 ![Dropdown Menu Preview](./src/images/dropdown-menu-example.png)
 
 <div>
-    <a href="#">View Demo</a>
+    <a href="https://npm.runkit.com/%40lindelwa122%2Fdropdown-menu">Try on RunKit</a>
     &middot;
     <a href="https://github.com/lindelwa122/dropdown-menu/issues">Report Bugs</a>
     &middot;
