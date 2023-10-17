@@ -1,4 +1,4 @@
-declare module 'dropdown-menu' {
+declare module '@lindelwa122/dropdown-menu' {
   /**
    * Dropdown item click handler function.
    */
