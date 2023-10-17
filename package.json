@@ -1,6 +1,6 @@
 {
   "name": "@lindelwa122/dropdown-menu",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A small JS library for creating dropdown menus.",
   "main": "index.js",
   "scripts": {
